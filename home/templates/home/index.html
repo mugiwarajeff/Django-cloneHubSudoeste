@@ -1,1 +1,118 @@
 {%extends 'base.html'%}
+{% load static %}
+{% block conteudo_body%}
+    <div class="banner-container">
+        <!-- <img src="./pictures/POST_01.jpg" alt="banner programa TD2"> -->
+        <a class="conection-btn" href="#">Increva-se agora!</a>
+    </div>
+
+    <div class="information-firts-hub">
+        <h1 class="principal-title">
+            Nós conectamos os pontos para <br> a inovação acontecer
+        </h1>
+
+        <h2 class="secondary-title">
+            Nós somos o primeiro HUB de conexões e capacitações para empreendedores de inovação do sudoeste da Bahia
+        </h2>
+    </div>
+    <div class="hub-valors-container" >
+        <h2 class="hub-valors-title">O que valorizamos</h2>
+        <div class="hub-valors-item" >
+            <div class="item-picture">
+                <img src="{% static 'home/pictures/icone-3-educacao-maior.png'%}" alt="networking-img">
+            </div>
+            <h3 class="item-title">
+                Educação
+            </h3>
+            <p class="item-description">
+                Pra nós é base de toda mudança.
+                Acreditamos na educação como a ponte entre o sonho e a realidade
+            </p>
+        </div>
+        <div class="hub-valors-item" >
+            <div class="item-picture">
+                <img src="{% static 'home/pictures/icone-2-colaboracao.png'%}" alt="colaboração-img">
+            </div>
+            <h3 class="item-title">
+                Colaboração
+            </h3>
+            <p class="item-description">
+                Ninguém constrói nada sozinho.
+                A construção da inovação é feita através da colaboração e tarnsforma realidades
+            </p>
+        </div>
+        <div class="hub-valors-item" >
+            <div class="item-picture">
+                <img src="{% static 'home/pictures/icone-1.png'%}" alt="educação-img">
+            </div>
+            <h3 class="item-title">
+                Networking
+            </h3>
+            <p class="item-description">
+                Conectamos pessoas que querem fazer mais.
+                Cremos no poder de uma boa rede de parceiros.
+            </p>
+        </div>
+    </div>
+
+    <div class="ask-conection-container">
+        <h2 class="ask-principal-title">
+            Quer se conectar?<br> Faça parte do Hub Sudoeste!
+        </h2>
+        <h3 class="ask-secondary-title">
+            Espaço físico, networking e apoio para o desenvolvimento do seu projeto
+        </h3>
+        <a class="ask-btn" href="#">
+            QUERO ME CONECTAR
+        </a>
+    </div>
+
+    <div class="our-partners-container">
+        <div class="partners-title">
+            <h2>Nossos parceiros</h2>
+        </div>
+        <div class="partners-pictures">
+            <img alt="ABDI" src="{% static 'home/pictures/partners/LOGO-ABDI-DIGITAL-BR.png'%}">
+            <img alt="BNB" src="{% static 'home/pictures/partners/logo-bnb-800.png'%}">
+            <img alt="CDL" src="{% static 'home/pictures/partners/LOGO-CDL-1.png'%}">
+            <img alt="Confra" src="{% static 'home/pictures/partners/Logo-confraria-do-Empreendedor.png'%}">
+            <img alt="Fainor" src="{% static 'home/pictures/partners/logo-fainor.png'%}">
+            <img alt="Fasa" src="{% static 'home/pictures/partners/logo-FASA.png'%}">
+            <img alt="IFBA" src="{% static 'home/pictures/partners/ifba.png'%}">
+            <img alt="FIEB" src="{% static 'home/pictures/partners/LOGO-FIEB.png'%}">
+            <img alt="SECTI" src="{% static 'home/pictures/partners/Logo-Secti.png'%}">
+            <img alt="IEBT" src="{% static 'home/pictures/partners/LOGO-IEBT-2.png'%}">
+            <img alt="PMVC" src="{% static 'home/pictures/partners/WhatsApp-Image-2021-07-05-at-11.12.37..png'%}">
+            <img alt="Proconquista" src="{% static 'home/pictures/partners/logo-pro-conquistas.png'%}">
+            <img alt="SEBRAE" src="{% static 'home/pictures/partners/logo-sebrae.png'%}">
+            <img alt="SICOOB" src="{% static 'home/pictures/partners/logo-sicoob.png'%}">
+            <img alt="Sincomercio" src="{% static 'home/pictures/partners/sincomercio.png'%}">
+            <img alt="Tv Sudoeste" src="{% static 'home/pictures/partners/logo-tv-sudoeste.png'%}">
+            <img alt="UESB" src="{% static 'home/pictures/partners/logo-UESB.png'%}">
+        </div>
+    </div>
+    <div class="follow-instagram">
+        <h2>
+            Siga o nosso Instagram
+        </h2>
+        <div class="purple-bar"></div>
+    </div>
+    <div class="location-container">
+        <div class="location-text">
+            <h4 class="location-title">Onde estamos</h4>
+            <p>
+                Ficamos Localizados em área nobre
+                da bela cidade de Vitória da conquista-BA.
+            </p>
+            <p>
+                Um espaço de 6.400m² dedicados ao ecossistema
+                de inovação e tecnologia.
+            </p>
+        </div>
+        <div class="location-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3856.4838357517233!2d-40.82580864907001!3d-14.854199589590483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7463a4442a95397%3A0xd5fcd4f69b804597!2sAv.%20Al%C3%ADrio%20Sales%2C%2075%20-%20Candeias%2C%20Vit%C3%B3ria%20da%20Conquista%20-%20BA!5e0!3m2!1spt-BR!2sbr!4v1648323529634!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    </body>
+{%endblock%}
+
