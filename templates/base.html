@@ -9,6 +9,10 @@
     <title>Document</title>
     <link href="{% static 'home/css/stylesheet.css'%}" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'home/css/dinamic-style.css'%}">
+    <link href="{% static 'home/css/headerBase.css'%}" rel="stylesheet">
+
+    <!-- linkando stylesheet especifico para cada pagina-->
+    {% block link_de_css %}{% endblock%}
 
     <!--linkando font poppins-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,11 +33,11 @@
     </header>
     <div class="header-menu-container">
         <ul class="header-menu">
-            <li class="menu-item"><a href="/">Home</a></li>
+            <li class="menu-item"><a class="text-link" href="/">Home</a></li>
             <li class="menu-item"><a href="/sobre">Sobre nós</a></li>
-            <li class="menu-item">Empresas</li>
-            <li class="menu-item">Contato</li>
-            <li class="menu-item">Empresas Selecionadas - Programa de Transformação Digital</li>
+            <li class="menu-item"><a href="/empresas">Empresas</a></li>
+            <li class="menu-item"><a href="/contato">Contato</a></li>
+            <!--<li class="menu-item">Empresas Selecionadas - Programa de Transformação Digital</li>-->
         </ul>
     </div>
    

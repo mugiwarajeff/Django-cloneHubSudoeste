@@ -1,0 +1,93 @@
+.contact-overlay {
+    background-image: url(../pictures/RENDER-EXTERNO_Photo-3.jpg);
+    background-position: right;
+}
+
+.talk-us-container {
+    background-color: rgb(78, 0, 142, 0.7);
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.talk-us-tittle {
+    color: #FA9500;
+    font-size: 30px;
+}
+
+.forms-container {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.forms-container form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+    max-width: 500px;
+}
+
+.forms-title {
+    font-size: 45px;
+    color: #482680;
+    line-height: 45px;
+    margin-bottom: 30px;
+}
+
+.forms-container form input {
+    height: 40px;
+    margin-bottom: 8px;
+    border: solid 1px rgb(219, 215, 215);
+}
+
+.forms-container form input::placeholder {
+    font-size: 15px;
+    color: gray;
+    margin-left: 15px;
+    padding-left: 5px;
+}
+
+.forms-container form textarea {
+    border: solid 1px rgb(219, 215, 215);
+}
+
+.forms-container form textarea::placeholder {
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+.forms-container form button {
+    margin-top: 20px;
+    background-color: #482680;
+    height: 45px;
+    color: white;
+    font-weight: 900;
+    border:none;
+}
+
+.map-container {
+    background-color: #482680;
+    display: flex;
+    flex-direction: column;
+}
+
+.map-container iframe {
+    max-width: 100%;
+    align-self: center;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.map-tittle {
+    color: white;
+    align-self: center;
+    font-size: 0.8em;
+    flex-grow: 1;
+    padding-top: 25px;
+}
+
+.forms-container {
+    padding-bottom: 30px;
+}

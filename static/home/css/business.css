@@ -1,0 +1,52 @@
+.overlay { 
+    background-image: url(../pictures/Startup-fundo-scaled.jpg);
+    background-size: cover;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 750px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(78, 0, 142, 0.8); 
+}
+
+.container-principal-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #fA9500;
+    font-family: poppins;
+    text-align: center;
+    line-height: 35px;
+}
+
+.container-secondary-title {
+    font-size: 17px;
+    color: #ffffff;
+    text-align: center;
+    margin: 25px 0px;
+}
+
+.conection-business-btn {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #16a093; 
+    padding: 15px 30px;
+    border-radius: 10px;
+    letter-spacing: 5px;
+    margin-top: 40px;
+    border: solid 1px #ffffff;
+    font-size: 15px;
+}
+
+.conection-business-btn:hover {
+    background-color: #cc2e72;
+    border: solid 1px #cc2e72;
+    color: white;
+}
+
+.business-litle-purple-bar {
+    height: 5px;
+    background-color: rgb(78, 0, 142);
+    margin-bottom: 3px;
+}

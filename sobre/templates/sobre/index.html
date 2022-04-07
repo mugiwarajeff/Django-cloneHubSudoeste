@@ -1,8 +1,96 @@
 {% extends 'base.html'%}
-
+{% load static%}
+{% block link_de_css %}
+    <link href="{% static 'home/css/about.css' %}" rel="stylesheet">
+{% endblock %}
 {%block conteudo_body%}
-    <div class="title-container">
-        <h2 class="title">Sobre nós</h2>
+    <div class="about-us-container">
+        <h2 class="about-us-title">Sobre nós</h2>
     </div>
 
+    <div class="mission-valors-container">
+        <div class="mission-valor">
+            <div class="mission">
+                <h3 class="mission-title">Missão</h3>
+                <p class="mission-description">Ser uma <span class="purple-tag">Comunidade</span>
+                que fomente o <span class="purple-tag">emprendedorismo inovador</span>
+            e contribua para o desenvolvimento regional por meio da conexão entre pessoas, conhecimentos e negócios</p>
+            </div>
+
+            <div class="mission">
+                <h3 class="mission-title">Visão</h3>
+                <p class="mission-description">
+                    Ser uma <span class="purple-tag">referência em conexões inovadoras</span> na Bahia.
+                        <span class="purple-tag">inspirar</span> o empreendedorismo e a inovação no Nordeste.
+                </p>
+            </div>
+        </div>
+        <div class="about-us-img">
+        </div>
+    </div>
+    <div class="team-conections-overlay">  
+        <div class="our-team-container">
+            <div class="our-team-title">
+                <h3>Nossa equipe</h3>
+            </div>
+            <div class="team-container">
+                <div class="team-member">
+                    <img src="./pictures/team/VICTOR DUTRA.jpg" alt="victor-dutra" width="200px">
+                    <h4 class="item-name">Victor Dutra</h4>
+                    <h4 class="item-cargo">COORDENADOR EXECUTIVO</h4>
+                </div>
+                <div class="team-member">
+                    <img src="./pictures/team/ADAILTON.jpg" alt="Adailton-nunes" width="200px">
+                    <h4 class="item-name">Adailton Nunes</h4>
+                    <h4 class="item-cargo">COORDENADOR DE OPERAÇÕES</h4>
+                </div>
+                <div class="team-member">
+                    <img src="./pictures/team/ERICO.png" alt="erico" width="200px">
+                    <h4 class="item-name">Érico Rodrigues</h4>
+                    <h4 class="item-cargo">COORDENADOR DE MARKETING</h4>
+                </div>
+                <div class="team-member">
+                    <img src="./pictures/team//BRENO.jpg" alt="breno" width="200px">
+                    <h4 class="item-name">Brenno Luiz</h4>
+                    <h4 class="item-cargo">Gerente de Qualidade</h4>
+                </div>
+                <div class="team-member">
+                    <img src="./pictures/team/JEFFERSON.jpg" alt="jefferson" width="200px">
+                    <h4 class="item-name">Jefferson Cerqueira</h4>
+                    <h4 class="item-cargo">ASSIST. DE OPERAÇÕES</h4>
+                </div>
+                <div class="team-member">
+                    <img src="./pictures/team//DENISE MARQUES.jpg" alt="victor-dutra" width="200px">
+                    <h4 class="item-name">Denise Marques</h4>
+                    <h4 class="item-cargo">SOCIAL MEDIA</h4>
+                </div>
+                <div class="team-member">
+                    <img src="./pictures/team/MELISSA.jpeg" alt="victor-dutra" width="200px">
+                    <h4 class="item-name">Melissa Oliveira</h4>
+                    <h4 class="item-cargo">AGENTE DE INOVAÇÃO</h4>
+                </div>
+                <div class="team-member">
+                    <img src="./pictures/team/HUGO.jpeg" alt="victor-dutra" width="200px">
+                    <h4 class="item-name">Hugo Brito</h4>
+                    <h4 class="item-cargo">AGENTE DE INOVAÇÃO</h4>
+                </div>
+                <div class="team-member">
+                    <img src="./pictures/team/JESUINO.jpg" alt="victor-dutra" width="200px">
+                    <h4 class="item-name">Jesuino Filho</h4>
+                    <h4 class="item-cargo">AGENTE DE INOVAÇÃO</h4>
+                </div>
+                <div class="team-member">
+                    <img src="./pictures/team/VICTOR-TELES.jpeg" alt="victor-dutra" width="200px">
+                    <h4 class="item-name">Victor Teles</h4>
+                    <h4 class="item-cargo">AGENTE DE INOVAÇÃO</h4>
+                </div>
+                <div class="team-member">
+                    <img src="./pictures/team/EDIONE.jpg" alt="victor-dutra" width="200px">
+                    <h4 class="item-name">Edione Magalhães</h4>
+                    <h4 class="item-cargo">AGENTE DE INOVAÇÃO</h4>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <div class="litle-purple-bar"></div>
 {%endblock%}

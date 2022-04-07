@@ -1,0 +1,119 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.about-us-container {
+    background-color: rgb(70, 0, 128);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us-title {
+    font-size: 38px;
+    color: orange;
+}
+
+.mission-valors-container {
+    display: flex;
+    margin-top: 50px;
+}
+
+.mission-valor {
+    flex-grow: 4;
+}
+
+.about-us-img {
+    background-image: url(../pictures/estruturaHub.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 100%;
+}
+
+.mission {
+    margin-left: 20px;
+    max-width: 76%;
+}
+.mission-title {
+    font-size: 32px;
+    color: #fa9500;
+    margin-top: 20px;
+}
+
+.mission-description {
+    font-size: 20px;
+    margin-top: 35px;
+    color: #4e008e;
+    font-weight: bold;
+}
+
+.purple-tag {
+    /* font-size: 1.05em; */
+    background-color: #4e008e;
+    color:white;
+}
+
+/* .our-team-container {
+
+} */
+.our-team-title {
+    font-size: 35px;
+    background-color: #4e008e;
+    padding-left: 20px;
+    color: white;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-image: url(../pictures/fundo-conexoes.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.team-conections-overlay {
+    background-color: rgb(78, 0, 142); 
+}
+.team-member {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    margin: 40px 20px;
+
+}
+
+.team-member img {
+    width: 70px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+.team-member .item-name {
+    font-size: 18px;
+    color: white;
+}
+
+.team-member .item-cargo {
+    font-size: 9px;
+    color: white;
+    font-weight: 200;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.litle-purple-bar {
+    height: 10px;
+    width: 80%;
+    border-bottom: solid 4px #4e008e;
+    margin-bottom: 10px;
+    align-self: center;
+}

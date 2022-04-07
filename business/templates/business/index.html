@@ -1,0 +1,24 @@
+{% extends 'base.html'%}
+{% load static%}
+
+{% block link_de_css%}
+    <link href="{% static 'home/css/business.css'%}" rel="stylesheet">
+{%endblock%}
+
+{% block conteudo_body%}
+<div class="business-litle-purple-bar">
+
+</div>
+<div class="overlay">
+    <div class="main-container">
+        <p1 class="container-principal-title">
+            Quer se conectar ?<br>Faça parte do Hub Sudoeste!
+        </p1>
+        <p2 class="container-secondary-title">
+            Espaço físico, networking e apoio para o desenvolvimento do seu projeto
+        </p2>
+
+        <a class="conection-business-btn" href="#">QUERO ME CONECTAR</a>
+    </div>
+</div>
+{%endblock%}
