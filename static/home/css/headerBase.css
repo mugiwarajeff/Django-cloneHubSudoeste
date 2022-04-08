@@ -1,3 +1,8 @@
 .menu-item a {
     text-decoration: none;
 }
+
+.header-menu li.selected {
+    border-top: solid 3px #02d1ae;
+    border-bottom: solid 3px #02d1ae;
+}
