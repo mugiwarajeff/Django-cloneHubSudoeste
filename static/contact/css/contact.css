@@ -1,6 +1,9 @@
+
 .contact-overlay {
     background-image: url({../../../../home/pictures/RENDER-EXTERNO_Photo-3.jpg);
     background-position: right;
+    height: 450px;
+    padding: 0;
 }
 
 .talk-us-container {
@@ -91,3 +94,9 @@
 .forms-container {
     padding-bottom: 30px;
 }
+
+.talk-us-container {
+    padding: 0px;
+    margin: 0px;
+}
+
