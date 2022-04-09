@@ -15,6 +15,8 @@ header {
     margin-top: 20px;
     flex-grow: 5;
     text-align: center;
+    position: relative;
+    left: 45px;
 }
 
 ion-icon {
@@ -82,21 +84,16 @@ ion-icon {
     flex-direction: column;
     align-items: center;
     height: 400px;
-    background-color: rgb(78, 0, 142);
-    /*background-image: url(../pictures/POST_01.jpg);
-    background-repeat: no-repeat;
-    background-size:50%;
-    background-position: center;
+    background-color: #352b85;
     justify-content: end;
-    */
 }
 
 .conection-btn {
     text-decoration: none;
-    color: #068b80;
+    color: #f59200;
     font-weight: bold;
     padding: 10px 30px;
-    border: solid 2px #352b85;
+    border: solid 2px #f59200;
     border-radius: 10px;
     position: relative;
     bottom: 40px;
