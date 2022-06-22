@@ -1,5 +1,6 @@
 # Django-cloneHubSudoeste
 Projeto de clonagem do site Hub sudoeste utilizando do framework em python django
+Todos os direitos reservado ao Hub Sudoeste
 
 
 ![imagem1](https://user-images.githubusercontent.com/83246777/175040350-443bbae9-37d5-48bf-a667-62f430e090cb.png)
